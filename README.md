@@ -6,18 +6,20 @@ This project analyzes historical car insurance claim data for AlphaCare Insuranc
 
 ## Project Structure
 
+```
 insurance-risk-analytics/
-├── data/ # Raw, interim, and processed datasets (tracked via DVC)
-├── notebooks/ # Jupyter notebooks for EDA, hypothesis testing, modeling, and reporting
-├── src/ # Modular source code for data processing, feature engineering, modeling, etc.
-├── tests/ # Unit tests for code validation and pipeline integrity
-├── outputs/ # Generated figures, evaluation metrics, and analytical reports
-├── .github/ # GitHub Actions CI/CD workflows for automation
-├── .dvc/ # DVC pipeline metadata and version control info
-├── README.md # Project overview, setup instructions, and usage guide
-├── dvc.yaml # DVC pipeline definition file for reproducible workflows
-├── environment.yml # Conda environment configuration for reproducibility
-├── requirements.txt # Python package dependencies for pip-based environments
+├── data/           # Raw and processed data (DVC tracked)
+├── notebooks/      # Jupyter notebooks for EDA and analysis
+├── src/            # Source code (data, eda, features, models, utils)
+├── tests/          # Unit tests
+├── outputs/        # Plots, metrics, and reports
+├── .github/        # GitHub Actions workflows
+├── .dvc/           # DVC metadata
+├── README.md
+├── dvc.yaml
+├── environment.yml
+├── requirements.txt
+```
 
 ## Setup Instructions
 
