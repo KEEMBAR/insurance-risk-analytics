@@ -1,0 +1,28 @@
+name: insurance-risk-analytics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - plotly
+  - dvc
+  - pytest
+  - black
+  - flake8
+  - pip:
+      - shap
+      - lime
+      - xgboost
+      - lightgbm
+      - catboost
+      - jupyterlab
+      - nbformat
+      - ipykernel
